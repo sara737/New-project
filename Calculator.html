@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf.8">
+        <link rel="stylesheet" href="Style.css">
+        <title>My Calculator</title>
+    </head>
+    <body>
+        <div class="container">
+            <div id="display">
+        <input id="text" type="number">
+        <br>
+        <button id="1" onclick="getNum(1)">1</button>
+        <button id="2" onclick="getNum(2)">2</button>
+        <button id="3" onclick= "getNum(3)">3</button>
+        <button id="pluse" onclick="getoperate('+')">+</button>
+        <button id="4" onclick="getNum(4)"> 4</button>
+        <button id="5" onclick="getNum(5)">5</button>
+        <button id="6" onclick="getNum(6)">6</button>
+        <button id="min" onclick="getoperate('-')">-</button>
+        <button id="7" onclick="getNum(7)">7</button>
+        <button id="8" onclick="getNum(8)">8</button>
+        <button id="9" onclick="getNum(9)">9</button>
+        <button id="mul" onclick="getoperate('*')">*</button>
+        <button id="div" onclick="getoperate('/')">/</button>
+        <button id="0" onclick="getNum(0)">0</button>
+        <button id="dec" onclick="getNum('.')">.</button>
+        <button id="equal" onclick="Calculate()">=</button>
+        <button id="cl" onclick="window.location.reload()">Clear All</button>   
+        </div>
+        </div>
+    </div>
+
+    </body>
+    <script src="calc.js"></script>
+</html>
